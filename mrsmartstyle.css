@@ -1,0 +1,437 @@
+          .{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+    background-color: grey;
+
+}
+nav{
+    background: #34495e;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: beige;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a{
+    color: beige;
+    font-size: 18px;
+    text-decoration: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: beige;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transform: 5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: beige;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50%;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 5s;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+}
+section{
+
+}
+
+
+.image1{
+    width: 200px;
+    height: 300px; 
+}
+
+.One {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10%;
+    width: 80%;
+}
+
+.box {
+    width: 80%;
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    margin: 30px 10% ;
+}
+
+.box1 {
+    height: 225px;
+    width: 340px;
+    background-color: rgb(91, 91, 91);
+    padding: 5px;
+}
+
+.jew_col {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.image2 {
+    width: 130px;
+    height: 220px;
+    background-color: grey;
+    overflow: hidden;
+    justify-content:space-between;
+}
+.text {
+    position: relative;
+}
+.text h5{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+
+.p1 {
+    padding-top: 60px;
+    font-size: larger;
+}
+.Gold_sil {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.image2 {
+    width: 130px;
+    height: 220;
+    background-color: black;
+    overflow: hidden;
+}
+.text {
+    position: relative;
+}
+.text h5{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+.p {
+    padding-top: 60px;
+    font-size: larger;
+}
+
+.French_Filtersbox {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.image {
+    width: 130px;
+    height: 220;
+    background-color: black;
+    overflow: hidden;
+}
+.text {
+    position: relative;
+}
+.text h5{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+.p {
+    padding-top: 60px;
+    font-size: larger;
+}
+
+.boxx {
+    width: 80%;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    margin: 20px 10%;
+}
+
+.the_journey {
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+}
+.our_collection {
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+}
+.the_adorable {
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+}
+.the_selective {
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+}
+.circle1 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: -50;
+    right: 0;
+    left:60px;
+    z-index: 2;
+}
+.circle2 {
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: -50;
+    right: 0;
+    left: 350px;
+    z-index: 2;
+}
+.circle3 {
+    background-color:green;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: -50;
+    right: 0;
+    left: 600px;
+    z-index: 2;
+}
+.circle4 {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: -50;
+    right: 0;
+    left: 850px;
+    z-index: 2;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.product {
+    font-size: 24px;
+}
+.header {
+    font-size: 36px;
+    font-weight: bold;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 30px;
+}
+.orange {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.long-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font size: 16px;
+    cursor:pointer;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+z-index: 1;
+top: -5px;
+background-color: white;
+min-width: 160px;
+border: 1px solid black;
+box-shadow: 0px 8px 16px 0px rgba(red, green, blue, alpha);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 2;
+    top: -0;
+}
+.dropdown-content a:hover {
+    background-color: #1b9bff;
+    z-index: 2;
+    top: -2;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 2;
+    top: -1;
+}
+.dropdown:hover.long-btn {
+    background-color: #1b9bff;
+    z-index: 2;
+    top:- 0;
+}
+.cart {
+    display: flex;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.Rings {
+    display: flex;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Necklace {
+    display: flex;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Bracelet {
+    display: flex;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+.containerx {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+.boxs {
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+    background-color: whitesmoke;
+    transition: all is ease-in-out;
+}
+.boxs:nth-child(1) {
+    background-color:whitesmoke;
+}
+.boxs:nth-child(2) {
+    background-color:whitesmoke;
+}
+.boxs:nth-child(3) {
+    background-color: whitesmoke;
+}
+.boxs:nth-child(4) {
+    background-color: whitesmoke;
+}
+.containerx:hover .boxs {
+    transform: translateX(70px);
+    background-color:peachpuff;
+}
+
